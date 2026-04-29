@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+wordcloud
+nltk
+ipykernel
+scikit-learn
+xgboost
