@@ -6,3 +6,5 @@ nltk
 ipykernel
 scikit-learn
 xgboost
+dvc
+dvclive
