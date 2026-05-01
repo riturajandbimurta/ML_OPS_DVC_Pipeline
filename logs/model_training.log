@@ -22,3 +22,21 @@
 2026-05-01 15:35:15,577 - model_training - DEBUG - Model training started with 4413 samples
 2026-05-01 15:35:15,654 - model_training - DEBUG - Model training completed
 2026-05-01 15:35:15,655 - model_training - DEBUG - Model saved to models/model.pkl
+2026-05-01 16:11:23,932 - model_training - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 16:11:23,937 - model_training - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4670, 31)
+2026-05-01 16:11:23,938 - model_training - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 20, 'random_state': 2}
+2026-05-01 16:11:23,938 - model_training - DEBUG - Model training started with 4670 samples
+2026-05-01 16:11:23,983 - model_training - DEBUG - Model training completed
+2026-05-01 16:11:23,984 - model_training - DEBUG - Model saved to models/model.pkl
+2026-05-01 16:14:42,942 - model_training - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 16:14:42,947 - model_training - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2026-05-01 16:14:42,947 - model_training - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2026-05-01 16:14:42,947 - model_training - DEBUG - Model training started with 4152 samples
+2026-05-01 16:14:42,992 - model_training - DEBUG - Model training completed
+2026-05-01 16:14:42,994 - model_training - DEBUG - Model saved to models/model.pkl
+2026-05-01 16:17:22,001 - model_training - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 16:17:22,007 - model_training - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (3654, 51)
+2026-05-01 16:17:22,008 - model_training - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 25, 'random_state': 2}
+2026-05-01 16:17:22,008 - model_training - DEBUG - Model training started with 3654 samples
+2026-05-01 16:17:22,062 - model_training - DEBUG - Model training completed
+2026-05-01 16:17:22,062 - model_training - DEBUG - Model saved to models/model.pkl
