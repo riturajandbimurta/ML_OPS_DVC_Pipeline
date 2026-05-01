@@ -4,3 +4,11 @@
 2026-05-01 14:32:59,388 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/riturajandbimurta/ML_OPS_DVC_Pipeline/refs/heads/master/experiments/spam.csv
 2026-05-01 14:32:59,394 - data_ingestion - DEBUG - Data preprocessing completed
 2026-05-01 14:32:59,415 - data_ingestion - DEBUG - Train and test data saved to ./data/raw
+2026-05-01 15:28:45,585 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 15:28:46,328 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/riturajandbimurta/ML_OPS_DVC_Pipeline/refs/heads/master/experiments/spam.csv
+2026-05-01 15:28:46,331 - data_ingestion - DEBUG - Data preprocessing completed
+2026-05-01 15:28:46,350 - data_ingestion - DEBUG - Train and test data saved to ./data/raw
+2026-05-01 15:34:54,482 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 15:34:55,134 - data_ingestion - DEBUG - Data loaded from https://raw.githubusercontent.com/riturajandbimurta/ML_OPS_DVC_Pipeline/refs/heads/master/experiments/spam.csv
+2026-05-01 15:34:55,137 - data_ingestion - DEBUG - Data preprocessing completed
+2026-05-01 15:34:55,148 - data_ingestion - DEBUG - Train and test data saved to ./data/raw

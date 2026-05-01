@@ -2,6 +2,7 @@ import pandas as pd
 import os 
 from sklearn.feature_extraction.text import TfidfVectorizer
 import logging
+import yaml
 
 # Ensure the "logs" directory exists
 log_dir = 'logs'
@@ -38,7 +39,22 @@ def load_data(file_path: str) -> pd.DataFrame:
     except Exception as e:
         logger.error('Unexpected error occurred while loading the data: %s', e)
         raise
-
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.debug('Parameters retrieved from %s', params_path)
+        return params
+    except FileNotFoundError:
+        logger.error('File not found: %s', params_path)
+        raise
+    except yaml.YAMLError as e:
+        logger.error('YAML error: %s', e)
+        raise
+    except Exception as e:
+        logger.error('Unexpected error: %s', e)
+        raise
 def apply_tfidf(train_data: pd.DataFrame, test_data: pd.DataFrame, max_features: int)->tuple:
     """Apply Terfm Frequency x Inverse Document Frequency to the Data"""
     try:
@@ -73,7 +89,9 @@ def save_data(df: pd.DataFrame, file_path: str) -> None:
         raise
 def main():
     try:
-        max_features = 50
+        params = load_params(params_path='params.yaml')
+        max_features = params['feature_engineering']['max_features']
+       # max_features = 50
         train_data = load_data('./data/interim/train_processed.csv')
         test_data = load_data('./data/interim/test_processed.csv')
         

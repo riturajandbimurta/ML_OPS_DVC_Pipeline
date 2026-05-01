@@ -12,3 +12,19 @@
 2026-05-01 14:36:39,245 - feature_engineering - DEBUG - tfidf applied and data transformed
 2026-05-01 14:36:39,300 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
 2026-05-01 14:36:39,314 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
+2026-05-01 15:28:47,402 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 15:28:47,406 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-05-01 15:28:47,407 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-05-01 15:28:47,410 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-05-01 15:28:47,411 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-05-01 15:28:47,438 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-05-01 15:28:47,491 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
+2026-05-01 15:28:47,505 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
+2026-05-01 15:35:14,294 - feature_engineering - DEBUG - Parameters retrieved from params.yaml
+2026-05-01 15:35:14,297 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-05-01 15:35:14,298 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-05-01 15:35:14,301 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-05-01 15:35:14,302 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-05-01 15:35:14,330 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-05-01 15:35:14,382 - feature_engineering - DEBUG - Data saved to ./data/processed/train_tfidf.csv
+2026-05-01 15:35:14,392 - feature_engineering - DEBUG - Data saved to ./data/processed/test_tfidf.csv
